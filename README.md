@@ -70,7 +70,7 @@ magshimim_final/
 ## Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests.
 
-### Project Contributors
+## Project Contributors
 - **arbelmv123**
 - **Mekupelet**
 
