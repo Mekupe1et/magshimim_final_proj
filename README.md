@@ -67,13 +67,12 @@ magshimim_final/
 2. Train the model using `main.ipynb`.
 3. Evaluate the model and make predictions on new text data.
 
-## Datasets
-- **Library of Congress Public Domain Books**: Texts from various decades.
-- **Twitter and YouTube Data**: Modern text sources for comparison.
-- **Balanced Corpus (1930-2020)**: A curated dataset for training.
-
 ## Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests.
+
+### Project Contributors
+- **arbelmv123**
+- **Mekupelet**
 
 ## License
 This project is licensed under the MIT License.
