@@ -11,7 +11,7 @@ def process_db(df: pd.DataFrame, name: str, filter: bool = True) -> pd.DataFrame
         df['text'] = df['text'].str.split(r'\n+', regex=True)
         df = df.explode('text')
         df = df[df['text'].apply(is_actual_prose)].reset_index(drop=True)
-    output_dir = Path("../.idea/data/processed_dbs").resolve()
+    output_dir = Path("../data/processed_dbs").resolve()
     output_dir.mkdir(parents=True, exist_ok=True)
     output_path = str(output_dir / f"{name}.parquet")
     print(f"Writing {output_path}")
