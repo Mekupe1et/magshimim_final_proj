@@ -18,6 +18,7 @@ magshimim_final/
 │   │   ├── train_00008.parquet
 │   │   └── train_00009.parquet
 │   ├── common_corpus_1930_2020_balanced.parquet
+│   ├── reddit.parquet
 │   ├── shard_00040.parquet
 │   ├── subset_100_1.parquet
 │   ├── subset_100_2.parquet
@@ -25,18 +26,27 @@ magshimim_final/
 │   ├── twitter.csv
 │   └── youTube.csv
 ├── data_creators/
+│   ├── assembler.ipynb
 │   ├── common corpus.ipynb
 │   ├── LoC-PD-Books.ipynb
 │   ├── pre_1900_corpus_40.ipynb
+│   ├── processor.py
 │   ├── Reddit_data_Extract.ipynb
-│   ├── spliter.ipynb
 │   ├── textage_large.ipynb
 │   ├── twitter.ipynb
 │   └── youtube.ipynb
 ├── models/
+├── processed_dbs/
+│   ├── combined_dataset.parquet
+│   ├── common_corpus.parquet
+│   ├── LoC-PD-Books.parquet
+│   ├── pre_1900_corpus_40.parquet
+│   ├── reddit.parquet
+│   ├── textage_large.parquet
+│   ├── twitter.parquet
+│   └── youtube.parquet
 ├── .gitattributes
 ├── .gitignore
-├── large_dataset.parquet
 ├── main.ipynb
 ├── README.md
 ├── requirements.txt
