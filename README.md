@@ -6,25 +6,6 @@ The goal of this project is to develop a machine learning model capable of predi
 ## Directory Structure
 ```text
 magshimim_final/
-├── base_dbs/
-│   ├── Loc-PD-Books/
-│   │   ├── train_00001.parquet
-│   │   ├── train_00002.parquet
-│   │   ├── train_00003.parquet
-│   │   ├── train_00004.parquet
-│   │   ├── train_00005.parquet
-│   │   ├── train_00006.parquet
-│   │   ├── train_00007.parquet
-│   │   ├── train_00008.parquet
-│   │   └── train_00009.parquet
-│   ├── common_corpus_1930_2020_balanced.parquet
-│   ├── reddit.parquet
-│   ├── shard_00040.parquet
-│   ├── subset_100_1.parquet
-│   ├── subset_100_2.parquet
-│   ├── textage_large.csv
-│   ├── twitter.csv
-│   └── youTube.csv
 ├── data_creators/
 │   ├── assembler.ipynb
 │   ├── common corpus.ipynb
@@ -36,15 +17,6 @@ magshimim_final/
 │   ├── twitter.ipynb
 │   └── youtube.ipynb
 ├── models/
-├── processed_dbs/
-│   ├── combined_dataset.parquet
-│   ├── common_corpus.parquet
-│   ├── LoC-PD-Books.parquet
-│   ├── pre_1900_corpus_40.parquet
-│   ├── reddit.parquet
-│   ├── textage_large.parquet
-│   ├── twitter.parquet
-│   └── youtube.parquet
 ├── .gitattributes
 ├── .gitignore
 ├── main.ipynb
